@@ -6,21 +6,28 @@ export default function Layout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Menu',
         }}
       />
 
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Orders',
+          title: 'Cart',
+        }}
+      />
+
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
         }}
       />
 
       <Tabs.Screen
         name="detail"
         options={{
-          href: null, // hides it from tab bar
+          href: null,
         }}
       />
     </Tabs>
